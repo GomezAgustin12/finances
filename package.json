@@ -1,13 +1,14 @@
 {
-  "name": "root",
+  "name": "finances",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
   "private": true,
+  "devDependencies": {
+    "nx": "16.1.4",
+    "typescript": "^5.0.4"
+  },
   "workspaces": [
     "packages/*"
-  ],
-  "scripts": {
-    "bootstrap": "yarn install -W && lerna bootstrap"
-  },
-  "devDependencies": {
-    "lerna": "^6.6.1"
-  }
+  ]
 }
